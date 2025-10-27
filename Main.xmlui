@@ -1,0 +1,17 @@
+<App>
+<H1>XMLUI Codefence Runner</H1>
+
+  <TextArea
+    id="code"
+    rows="15"
+    initialValue="```xmlui-pg
+  <App>
+  Hello
+  </App>
+  ```
+  "
+  />
+
+  <Markdown content="{code.value}" />
+
+</App>
