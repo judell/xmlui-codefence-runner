@@ -1,6 +1,5 @@
 <App>
-<H1>XMLUI Codefence Runner</H1>
-
+  <H1>XMLUI Codefence Runner</H1>
   <TextArea
     id="code"
     rows="15"
@@ -9,9 +8,6 @@
   Hello
   </App>
   ```
-  "
-  />
-
+  " />
   <Markdown content="{code.value}" />
-
 </App>
