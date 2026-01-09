@@ -4,10 +4,11 @@
     id="code"
     rows="15"
     initialValue="```xmlui-pg
-  <App>
+---app
+<App>
   Hello
-  </App>
-  ```
-  " />
+</App>
+```
+" />
   <Markdown content="{code.value}" />
 </App>
