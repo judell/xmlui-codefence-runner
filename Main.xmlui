@@ -1,8 +1,9 @@
-<App>
+<App onInit="registerXmluiSource(code.value)">
   <H1>XMLUI Codefence Runner</H1>
   <TextArea
     id="code"
     rows="15"
+    onDidChange="value => registerXmluiSource(value)"
     initialValue="```xmlui-pg
 ---app
 <App>
@@ -11,4 +12,5 @@
 ```
 " />
   <Markdown content="{code.value}" />
+  <Footer>{version}</Footer>
 </App>
